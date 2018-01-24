@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.1.0.16-->
+<svg stroke-width="0.501" stroke-linejoin="bevel" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="1440pt" height="810pt" viewBox="0 0 1440 810">
+ <defs>
+  <radialGradient id="RadialGradient" gradientUnits="userSpaceOnUse" cx="985.576" cy="5.4" r="648.802">
+   <stop offset="0" stop-color="#f5f9e2"/>
+   <stop offset="1" stop-color="#f9fbfd"/>
+  </radialGradient>
+ </defs>
+ <g id="Document" fill="none" stroke="black" font-family="Times New Roman" font-size="16" transform="scale(1 -1)">
+  <g id="Spread" transform="translate(0 -810)">
+   <g id="Layer 1">
+    <path d="M 0,810 L 0,0.001 L 1439.99,0.001 L 1439.99,810 L 0,810 Z" stroke="none" stroke-width="0.25" stroke-linejoin="miter" marker-start="none" marker-end="none"/>
+    <path d="M 1431.97,273.433 C 1409.04,65.293 1173.65,-24.11 903.076,129.201 C 754.742,213.249 693.66,163.027 546.076,180.201 C 376.825,199.896 74.543,525.613 156.076,712.701 C 252.689,934.392 1143.04,720.562 1308.08,628.701 C 1467.08,540.201 1442.65,370.303 1431.97,273.433 Z" stroke="none" stroke-linejoin="miter" stroke-width="0.25" marker-start="none" marker-end="none" fill="url(#RadialGradient)"/>
+   </g>
+  </g>
+ </g>
+</svg>
