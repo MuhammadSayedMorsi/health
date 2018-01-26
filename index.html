@@ -9,44 +9,8 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-    <!-- <header class="main-header">
-      <div class="containerr">
-          <div class="main-header-nav">
-              <div class="wrap-logo">
-                <a href="">
-                  <img src="assets/img/i2h-logo_1.svg" alt="">
-                </a>
-              </div>
-            <div class="wrap-nav">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">How It Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link quick" href="">quickcheck</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-      </div>
-
-  </header> -->
-
-
   <header class="header">
+
     <div class="container">
       <div class="header__logo__container">
           <a href=""><img src="assets/img/i2h-logo_1.svg" alt="" class="header__logo__img"></a>
@@ -101,9 +65,9 @@
       </div>
       <!-- header-content -->
       <div class="header-content">
-        <div class="container">
+        <!-- <div class="container"> -->
           <div class="row">
-            <div class="col-md-6">
+            <div class="hero-section-content col-sm-12 col-md-12 col-lg-6">
                 <div class="hero-section">
                   <h1>How young are you really?</h1>
                    <p> We’ve harnessed world-leading medical research and tailored it just for you.</p>
@@ -117,18 +81,18 @@
                    </div>
                 </div>
             </div>
-          <div class="col-md-6">
-            <div class="survey-section">
+          <div class="survey-section col-sm-12 col-md-12 col-lg-6">
+            <div class="hold-survey">
                 <img src="assets/img/i2h-doctor.png" alt="">
                 <div class="survey-form">
                   <h3>I think my overall health is:</h3>
                   <div class="survey-button">
-                    <a href="">Poor</a>
-                    <a href="">Ok</a>
-                    <a href="">Good</a>
-                    <a href="">Excellent</a>
+                    <a class="w-button left" href="">Poor</a>
+                    <a class="w-button middle" href="">Ok</a>
+                    <a class="w-button middle" href="">Good</a>
+                    <a  class="w-button right" href="">Excellent</a>
                   </div>
-                  <a href="" class="cta-check">TAKE OUR QUICKCHECK</a>
+                  <a href="" class="w-button-check cta-check">TAKE OUR QUICKCHECK</a>
                   <div class="warn">
                     <span>We do not share your personal information</span>
                   </div>
@@ -136,12 +100,80 @@
             </div>
           </div>
         </div>
-        </div>
+        <!-- </div> -->
       </div>
     </header>
 
+    <!-- section-features -->
+    <section class="features">
+      <div class="wrapper container">
+        <div class="break"></div>
+        <div class="hold-title">
+            <h2>Features</h2>
+        </div>
+        <div class="wrapper-content row">
+          <div class=" wrap-features col-sm-12 col-md-4">
+              <img src="assets/img/i2h-feature1.svg" alt="">
+              <h4>Your data is just that - yours</h4>
+              <p>Your data is just that - yours, We do not share your personal information.</p>
+          </div>
+          <div class=" wrap-features col-sm-12 col-md-4">
+              <img src="assets/img/i2h-feature2.svg" alt="">
+              <h4>Developed by Doctors
+                </h4>
+              <p>Powered by world's best medical brains from *** of the latest studies including *** people.</p>
 
-  <!-- js-library -->
+          </div>
+          <div class=" wrap-features col-sm-12 col-md-4">
+
+              <img src="assets/img/i2h-feature3.svg" alt="">
+              <h4>Power to you</h4>
+              <p>Our risk predictor translates complex medical data into everyday language and we tailor wellness programs to empower you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works section -->
+    <section class="h-i-w">
+      <div class="b-g"></div>
+      <div class="wrapper container">
+        <div class="break"></div>
+        <div class="hold-title">
+          <h2>How It Works</h2>
+          <span>It’s as simple as 1,2,3.</span>
+        </div>
+        <div class="hiw-boxes">
+          <div class="how1">
+            <div class="how1-content">
+              <h4>2 minutes is all that it takes</h4>
+              <p class="b-title">Take the Quickcheck</p>
+              <p>This super quick quiz will test your energy levels. How do you score?</p>
+            </div>
+            <div class="how1-bx2"></div>
+          </div>
+          <div class="how2">
+            <div class="how2-bx2"></div>
+            <div class="how2-content">
+              <h4>Energy levels not at 100%?</h4>
+              <p class="blue">Finish the Full Check</p>
+              <p>Learn your medical age, whether you’re at risk of chronic illness – and what you can do about it.</p>
+            </div>
+          </div>
+          <div class="how3">
+            <div class="how3-content">
+              <h4>Finally</h4>
+              <p class="blue">Up the awesome</p>
+              <p>Get happier and healthier using your personalized well being plan which includes doctor referrals if you need them.</p>
+            </div>
+            <div class="how3-bg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- js-library -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
