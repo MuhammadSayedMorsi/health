@@ -1,0 +1,38 @@
+.main-result-features {
+  margin: 50px 0;
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+  .container {
+    .section-break {
+      width: 98%;
+      height: 1px;
+      margin-bottom: 50px;
+      background-color: #e9edf5;
+    }
+    .row {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      .feature-box {
+        img {
+          width: 100%;
+        }
+        h4 {
+          color: #436cad;
+          font-size: 20px;
+          line-height: 1.4em;
+          font-weight: 600;
+          text-align: center;
+
+        }
+        p {
+          font-size: 16px;
+          color: rgba(26, 26, 26, .7);
+          text-align: center;
+        }
+
+      }
+    }
+  }
+}

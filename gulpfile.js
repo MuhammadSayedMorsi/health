@@ -25,7 +25,7 @@ gulp.task('serve', ['sass'], function() {
 
 gulp.watch(["assets/css/scss/**/*.scss"], ['sass']);
 
-gulp.watch("index.html").on('change', browserSync.reload);
+gulp.watch("*.html").on('change', browserSync.reload);
 gulp.watch("assets/js/*.js").on('change', browserSync.reload);
 
 });

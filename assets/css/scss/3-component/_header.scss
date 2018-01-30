@@ -1,18 +1,17 @@
-.header {
-  width: 100%;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // height: 874px;
+.header-bg {
   background-image: url(../img/i2h-pagebg.svg);
   background-position: 395px -218px;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+
   @media (max-width: 992px) {
     background-position: 50% 50%;
     height: 874px;
   }
+}
+.header {
+  width: 100%;
+  overflow: hidden;
   .container {
     display: flex;
     align-items: center;

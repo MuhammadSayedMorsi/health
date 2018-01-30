@@ -52,12 +52,36 @@
       background-position: 50% 50%;
       background-size: contain;
       background-repeat: no-repeat;
+      @media (max-width: 479px) {
+        height: 900px;
+        margin-top: 0px;
+        background-image: none;
+      }
+      @media (max-width: 767px) {
+        height: 750px;
+        background-position: 50% 58%;
+        background-size: 800px;
+      }
+      @media (max-width: 992px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        // align-items:0ceuse the col-when the net come..nter;
+        flex: 0 0 auto;
+        background-size: 1000px;
+      }
       .how1 {
         display: flex;
         width: 100%;
         height: 400px;
         justify-content: center;
         align-items: center;
+        @media (max-width: 479px) {
+          height: 300px;
+        }
+        @media (max-width: 767px) {
+          height: 250px;
+        }
         .how1-content {
           display: flex;
           width: 40%;
@@ -66,6 +90,24 @@
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
+          @media (max-width: 479px) {
+            width: 100%;
+            height: 300px;
+            padding-right: 12px;
+            justify-content: flex-start;
+            background-image: url(../img/i2h-hiw-bg2x.png);
+            background-position: 84% 110px;
+            background-size: 700px;
+            background-repeat: no-repeat;
+          }
+          @media (max-width: 767px) {
+            height: 250px;
+            justify-content: center;
+          }
+          @media (max-width: 992px) {
+            width: 100%;
+            justify-content: center;
+          }
           h4 {
             width: 100%;
             margin-bottom: 0;
@@ -74,6 +116,10 @@
             line-height: 1.4em;
             font-weight: 600;
             margin-top: 10px;
+            @media (max-width: 479px) {
+              width: 100%;
+              font-size: 14px;
+            }
           }
           .b-title {
             margin-bottom: 16px;
@@ -81,6 +127,18 @@
             font-size: 32px;
             line-height: 1.4em;
             margin-top: 0;
+            @media (max-width: 479px) {
+              width: 100%;
+              font-size: 20px;
+              font-weight: 600;
+              text-align: left;
+            }
+            @media (max-width: 767px) {
+              font-size: 20px;
+            }
+            @media (max-width: 992px) {
+              text-align: center;
+            }
           }
         }
         .how1-bx2 {
@@ -92,6 +150,18 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          @media (max-width: 479px) {
+            width: 20%;
+            height: 300px;
+          }
+          @media (max-width: 767px) {
+            height: 250px;
+            justify-content: flex-end;
+          }
+          @media (max-width: 992px) {
+            width: 100%;
+            justify-content: center;
+          }
         }
       }
       .how2 {
@@ -100,6 +170,12 @@
         height: 400px;
         justify-content: center;
         align-items: center;
+        @media (max-width: 479px) {
+          height: 300px;
+        }
+        @media (max-width: 767px) {
+          height: 250px;
+        }
         .how2-bx2 {
           display: flex;
           width: 40%;
@@ -148,6 +224,12 @@
         height: 400px;
         justify-content: center;
         align-items: center;
+        @media (max-width: 479px) {
+          height: 300px;
+        }
+        @media (max-width: 767px) {
+          height: 250px;
+        }
         .how3-content {
           display: flex;
           width: 40%;
@@ -192,5 +274,6 @@
         }
       }
     }
+    
   }
-}
+  }
