@@ -10,67 +10,9 @@
 </head>
 <body>
 <!-- header -->
-<!-- <header class="header">
-
-    <div class="container">
-      <div class="header__logo__container">
-          <a href=""><img src="assets/img/i2h-logo_1.svg" alt="" class="header__logo__img"></a>
-      </div>
-      <div class="header__navbar__container">
-          <nav class="header__navbar">
-            <ul class="header__navbar__ul">
-              <li class="header__navbar__li">
-                <a href="" class="header__navbar__link header__navbar__link__animated">Feautres</a>
-              </li>
-              <li class="header__navbar__li">
-                  <a href="" class="header__navbar__link header__navbar__link__animated">How It Works </a>
-              </li>
-              <li class="header__navbar__li">
-                <a href="" class="header__navbar__link header__navbar__link__animated">Contact Us</a>
-              </li>
-              <li class="header__navbar__li">
-                  <a href="" class="header__navbar__link quick">Quickcheck</a>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="header__navbar__mobile__container">
-            <div class="header__navbar__mobile__toggle " id="toggle__menu">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="header__navbar__mobile">
-        <nav class="header__navbar__mobile__nav">
-          <ul class="header__navbar__mobile__ul">
-            <li class="header__navbar__li h_mobile">
-              <a href="" class="header__navbar__link">Feautres</a>
-            </li>
-            <li class="header__navbar__li h_mobile">
-              <a href="" class="header__navbar__link">How It Works
-              </a>
-            </li>
-            <li class="header__navbar__li h_mobile">
-              <a href="" class="header__navbar__link">Contact Us
-                </a>
-            </li>
-            <li class="header__navbar__li h_mobile">
-                <a href="" class="header__navbar__link green">Quickcheck</a>
-            </li>
-          </ul>
-        </nav>
-      </div> -->
-      <!-- header-content -->
-      <!-- </div>
-    </header> -->
-
     <header class="header">
 
-        <div class="container">
+        <div class="container-fluid">
           <div class="header__logo__container">
           <a href=""><img src="assets/img/i2h-logo_1.svg" alt="" class="header__logo__img"></a>
           </div>
@@ -78,13 +20,13 @@
           <nav class="header__navbar">
           <ul class="header__navbar__ul">
           <li class="header__navbar__li">
-          <a href="" class="header__navbar__link header__navbar__link__animated">Feautres</a>
+          <a href="#feautres" class="header__navbar__link header__navbar__link__animated">Feautres</a>
           </li>
           <li class="header__navbar__li">
             <a href="" class="header__navbar__link header__navbar__link__animated">How It Works </a>
           </li>
           <li class="header__navbar__li">
-          <a href="" class="header__navbar__link header__navbar__link__animated">Contact Us</a>
+          <a href="#contact-us" class="header__navbar__link header__navbar__link__animated">Contact Us</a>
           </li>
           <li class="header__navbar__li">
             <a href="" class="header__navbar__link quick">Quickcheck</a>
@@ -106,14 +48,14 @@
             <nav class="header__navbar__mobile__nav">
             <ul class="header__navbar__mobile__ul">
               <li class="header__navbar__li h_mobile">
-                <a href="" class="header__navbar__link">Feautres</a>
+                <a href="#feautres" class="header__navbar__link">Feautres</a>
               </li>
               <li class="header__navbar__li h_mobile">
-                <a href="" class="header__navbar__link">How It Works
+                <a href="#how-it-work" class="header__navbar__link">How It Works
               </a>
               </li>
               <li class="header__navbar__li h_mobile">
-                <a href="" class="header__navbar__link">Contact Us
+                <a href="#contact-us" class="header__navbar__link">Contact Us
               </a>
               </li>
               <li class="header__navbar__li h_mobile">
@@ -198,13 +140,12 @@
                 you score higher than 72% of population.</p>
                 <div class="img-wra">
                   <img src="assets/img/i2h-dashboard.png"  alt="">
-                  <!-- <img srcset="assets/img/i2h-dashboard-p-500.png 500w,assets/img/i2h-logo.png 1000w" alt="dashbord-image"> -->
                 </div>
           </div>
         </div>
       </section>
 
-      <section class="main-result-features">
+      <section id="feautres" class="main-result-features">
         <div class="container">
           <div class="section-break"></div>
           <div class="row">
@@ -259,8 +200,45 @@
         </div>
       </section>
 
+      <!-- form -->
+      <section id="contact-us" class="main-section-form">
+        <div class="container">
+          <form action="" class="row">
+            <div class="contact-box col-sm-12  col-md-12 col-lg-3">
+              <h3>Contact us</h3>
+              <p>Kew, Victoria 3101, Australia© 2017 In2health Solutions Pty Ltd. All Rights Reserved</p>
+            </div>
+            <div class="contact-box col-sm-12 col-md-12 col-lg-3">
+               <h3> Get in touch </h3>
+              <div class="wrap-input">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea name="field" id="field" maxlength="5000" placeholder="Message"></textarea>
+                <input type="submit" value="submit" class="submit-button">
+
+              </div>
+            </div>
+            <div class="contact-box col-sm-12  col-md-12 col-lg-3">
+              <h3>Follow us</h3>
+              <div class="icon">
+                <a href="">
+                  <img src="assets/img/cronycle-webapp-share-twitter-16.svg" alt="">
+                  <span>Twitter</span>
+                </a>
+                <a href="">
+                  <img src="assets\img\cronycle-webapp-share-linkedin-16.svg" alt="">
+                  <span>Linkedin</span>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+
+
 <!-- js-library -->
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
 
 <script src="assets/js/jquery-3.1.1.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
