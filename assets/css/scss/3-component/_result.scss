@@ -1,19 +1,14 @@
 .main-section-loud {
-  // background-color: peru;
   margin-bottom: 48px;
 
   .wrap-results {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // flex-direction: column;
-
     .section-1 {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       margin-bottom: 120px;
+      z-index: 1;
       @media (max-width: 992px) {
       margin-bottom: 0;
       }
@@ -51,7 +46,6 @@
           top: 22px;
           right: 0px;
           z-index: 99;
-          // width: 100%;
           margin-top: 80px;
           color: #436cad;
           font-size: 36px;
@@ -83,9 +77,6 @@
       }
     }
     .section-2-result {
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
         .main-results-box {
           h3 {
             color: #436cad;
@@ -121,7 +112,6 @@
   .container {
     .section-break {
       position: relative;
-      // width: 98%;
       height: 1px;
       background-color: #e9edf5;
       p {
@@ -138,9 +128,6 @@
       }
     }
     .row {
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
       margin-top: 48px;
       .m-results {
         margin-bottom: 20px;

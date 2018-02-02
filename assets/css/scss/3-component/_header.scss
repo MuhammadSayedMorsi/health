@@ -3,20 +3,29 @@
   background-position: 395px -218px;
   background-size: cover;
   background-repeat: no-repeat;
+  @media (max-width: 479px) {
+    height: 750px;
+    background-position: 70% 0px;
+  }
+
+  @media (max-width: 767px)  {
+    height: 750px;
+    background-position: 39% 50%;
+}
 
   @media (max-width: 992px) {
     background-position: 50% 50%;
     height: 874px;
+
   }
+
 }
 .header {
-  // width: 100%;
   overflow: hidden;
   .container-fluid {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // height: 70px;
     padding-top: 20px;
     @media (max-width: 992px) {
       padding: 0 15px;
@@ -189,9 +198,10 @@
     z-index: 10;
     width: 100%;
     flex: 1;
+
     transition: max-height 0.4s ease;
     &.visible {
-      max-height: 300px;
+      max-height: 360px;
     }
     .header__navbar__mobile__nav {
       padding: 0 20px;
@@ -283,7 +293,6 @@
   //*********************content-styles
       .header-content {
         width: 100%;
-        // height: 800px;
         padding-bottom: 128px;
         display: flex;
         justify-content: center;
@@ -301,7 +310,6 @@
               align-items: center;
             }
             .hero-section-content {
-                // width: 45%;
                 padding-left: 40px;
                 margin-top: 330px;
                 @media (max-width: 992px) {
@@ -362,11 +370,11 @@
               }
             }
             .survey-section {
-              // width: 45%;
               padding-right: 0px;
               padding-left: 0px;
               margin-bottom: -25px;
               margin-top: 126px;
+              z-index: 1;
               @media (max-width: 992px) {
                 margin-top: 20px;
               }
@@ -382,7 +390,6 @@
                 }
                 .survey-form {
                   position: relative;
-                  // top: 80px;
                   z-index: 999;
                   display: flex;
                   width: 100%;

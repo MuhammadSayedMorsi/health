@@ -5,13 +5,3 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
-
-.cf::after,
-.cf::before {
-  display: table;
-  content: "";
-}
-
-.cf::after {
-  clear: both;
-}

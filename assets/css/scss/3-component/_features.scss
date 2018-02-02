@@ -1,7 +1,6 @@
 .features {
   margin-bottom: 48px;
   .wrapper {
-    // width: 1170px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 12px;
@@ -28,6 +27,7 @@
       margin-left: 18px;
       padding-left: 8px;
       .wrap-features {
+        text-align: center;
         img {
           max-width: 100%;
         }
